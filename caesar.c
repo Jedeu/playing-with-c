@@ -4,6 +4,11 @@
 #include <stdlib.h>
 #include <ctype.h>
 
+// Rotates a user-inputted message by n places in the alphabet
+// where n is the argv[1] given by the user
+
+//TODO: Add better exception-handling to make sure the argv[1] is an int
+
 int main(int argc, string argv[])
 {
     if (argc != 2)

@@ -2,6 +2,8 @@
 #include <math.h>
 #include <stdio.h>
 
+// Takes in a float (currency) and returns the number of coins needed to fulfill that amount
+
 int main (void)
 {   
     float ChangeToGive;

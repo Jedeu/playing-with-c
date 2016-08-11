@@ -3,6 +3,10 @@
 #include <string.h>
 #include <ctype.h>
 
+// Takes in a name (provided it consists only of spaces and alphabetical characters) and outputs the initials
+
+// TODO: Figure out how to handle nonalpha chars
+
 int main (void)
 {   
     string user_name = GetString();

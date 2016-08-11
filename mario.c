@@ -1,6 +1,9 @@
 #include <cs50.h>
 #include <stdio.h>
 
+// Takes in a number as a height of the half-pyramid and outputs the half-pyramid provided that the height does not exceed 23
+// as per the course's instructions
+
 int main(void)
 {   
     int PyramidHeight;
